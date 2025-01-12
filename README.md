@@ -62,6 +62,13 @@ Make sure you have the following packages installed:
 
 ## This model receives an accuracy of 85+ based on the tokenizer.
 
+## The Application GUI for this made using tkinter is as follws:
+
+Below is a screenshot of the French to Tamil Translator application:
+
+![Translator GUI](translation_gui.png)
+
+
 
 ## Datasets
 
