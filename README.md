@@ -53,6 +53,14 @@ Make sure you have the following packages installed:
 
 4. The translated word will appear in the output field.
 
+5. Run test.py and see the model performance on dummy dataset.
+
+   ```bash
+   python test.py
+
+![Translator GUI](training_metrics.png)
+
+
 ## Datasets
 
 Ensure that the CSV file containing the mappings between French and Tamil words is in the project directory. The expected column headers are french and tamil.
