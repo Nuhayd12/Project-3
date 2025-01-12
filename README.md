@@ -60,6 +60,8 @@ Make sure you have the following packages installed:
 
 ![Translator GUI](training_metrics.png)
 
+## This model receives an accuracy of 85+ based on the tokenizer.
+
 
 ## Datasets
 
