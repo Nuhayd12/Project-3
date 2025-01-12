@@ -189,7 +189,7 @@ class TranslatorGUI:
             
                 # Create decoder input
                 decoder_input = np.zeros((1, config.max_length))
-                decoder_input[0, 0] = self.tamil_tokenizer.word_index['<start>']  # Start token for decoder
+                decoder_input[0, 0] = self.tamil_tokenizer.word_index['start']  # Start token for decoder
 
                 # Predict
                 output = self.model.predict(
@@ -205,7 +205,7 @@ class TranslatorGUI:
 
                 # Process the predicted sequence to get the translated word
                 predicted_word = self.tamil_tokenizer.sequences_to_texts([predicted_seq])[0]
-                predicted_word = predicted_word.replace('<start>', '').replace('<end>', '').strip()
+                predicted_word = predicted_word.replace('start', '').replace('end', '').strip()
 
                 translated_words.append(predicted_word)
             else:
